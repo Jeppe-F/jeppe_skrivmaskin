@@ -1,0 +1,72 @@
+body {
+    background: none !important;
+}
+
+@font-face {
+    font-family: 'Sansation Bold';
+    src: url('../fonts/Sansation_Bold.ttf') /* TTF file for CSS3 browsers */
+  }
+  
+  @font-face {
+    font-family: 'Sansation Regular';
+    src: url('../fonts/Sansation_Regular.ttf') /* TTF file for CSS3 browsers */
+  }
+  
+  @font-face {
+    font-family: 'Sansation Light';
+    src: url('../fonts/Sansation_Light.ttf') /* TTF file for CSS3 browsers */
+  }
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(35, 35, 35);
+    height: 250px;
+    width: 450px;
+    border: 0.5px solid rgba(176, 176, 176, 0.72);
+    border-radius: 5px;
+}
+
+button {
+    position: static;
+    background-color: rgb(35, 35, 35);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+input {
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-family: Sansation Regular;
+    padding: 12px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: Sansation Regular;
+}
+
+h6 {
+    font-size: 20px;
+    text-align: match-parent;
+    font-family: Sansation Regular;
+}
+
+h5 {
+    font-size: 20px;
+    text-align: match-parent;
+    font-family: Sansation Regular;
+}
+
+
